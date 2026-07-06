@@ -412,6 +412,68 @@ body {
   color: var(--color-text-light);
 }
 
+/* ===== Timeline Time ===== */
+.timeline-time {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  letter-spacing: 0.05em;
+  margin-top: 0.15rem;
+}
+
+/* ===== Story Closing ===== */
+.story-closing {
+  font-style: italic;
+  color: var(--color-accent-soft) !important;
+  margin-top: 1.5rem;
+}
+
+/* ===== Registry Card ===== */
+.registry-card {
+  text-align: center;
+}
+
+.registry-none {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem !important;
+}
+
+/* ===== Closing Section ===== */
+.closing-card {
+  text-align: center;
+  padding: 3rem !important;
+}
+
+.closing-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 300;
+  color: var(--color-accent);
+  margin-bottom: 1.5rem;
+}
+
+.closing-big {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-text);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem !important;
+}
+
+.closing-sig {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--color-text-light);
+  margin-top: 1rem !important;
+  line-height: 1.8;
+}
+
 /* ===== Footer ===== */
 .footer {
   text-align: center;
